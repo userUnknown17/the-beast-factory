@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Beast Factory V3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="#" class="nav-link">Home</a>
+  <a href="#about" class="nav-link">About</a>
+  <a href="#bmi" class="nav-link">BMI</a>
+  <a href="#gallery" class="nav-link">Gallery</a>
+</nav>
+
+<header class="hero-section reveal">
+  <h1 class="text-orange">THE BEAST FACTORY</h1>
+  <p>Push Beyond Your Limits</p>
+</header>
+
+<section id="about" class="reveal">
+  <h2 class="text-orange">About Us</h2>
+  <p>We’re not just a gym, we’re a beast-building factory.</p>
+</section>
+
+<section id="bmi" class="reveal">
+  <h2 class="text-orange">BMI Calculator</h2>
+  <form id="bmiForm">
+    <input type="number" id="weight" placeholder="Weight (kg)" required>
+    <input type="number" id="height" placeholder="Height (cm)" required>
+    <button type="submit">Calculate</button>
+  </form>
+  <p id="bmiResult"></p>
+</section>
+
+<section id="gallery" class="reveal">
+  <h2 class="text-orange">Gallery</h2>
+  <div class="gallery-images">
+    <div class="img-box">Image 1</div>
+    <div class="img-box">Image 2</div>
+    <div class="img-box">Image 3</div>
+  </div>
+</section>
+
+<img src="logo.png" id="floating-logo" alt="Logo" />
+
+<script src="script.js"></script>
+</body>
+</html>
